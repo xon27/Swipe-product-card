@@ -1,0 +1,170 @@
+:root {
+  --swiper-theme-color: #010303;
+}
+
+body {
+  background: #DADCDE;
+  font-family: "Roboto";
+  color: #1D2127;
+}
+
+a {
+  color: #1D2127;
+}
+
+ul {
+  list-style-type: "+";
+  padding-inline-start: 0px;
+  margin-inline-start: 10px;
+}
+
+li {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.55rem;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+hr {
+  width: 70px;
+  margin-left: 0;
+  border: solid 3px #20232A;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.85rem;
+}
+
+.screen {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  background: #CFD0D4;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 420px;
+  border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.header {
+  display: flex;
+  width: inherit;
+  height: 100px;
+  align-items: center;
+  padding: 0 48px;
+  font-size: 1.45rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  z-index: 100;
+}
+
+.product {
+  display: flex;
+  flex-flow: column;
+  width: inherit;
+  height: 790px;
+}
+
+.product-swiper {
+  height: 790px;
+}
+
+.swiper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 25px;
+}
+.swiper .swiper-wrapper {
+  height: 500px;
+  width: auto;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  top: -100px;
+  padding: 0px 48px;
+  width: auto;
+  display: flex;
+  background-size: fit;
+  background-repeat: no-repeat;
+}
+.swiper .swiper-wrapper .swiper-slide .swiper-text {
+  align-self: flex-end;
+}
+.swiper .swiper-pagination {
+  top: 18%;
+  left: 48px;
+}
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  margin-bottom: 15px;
+}
+.swiper .footer-swipe {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+.swiper .footer-swipe .swiper-button-next {
+  position: relative;
+  transform: rotate(90deg);
+  color: #C2C4C8;
+}
+
+.footer {
+  height: 140px;
+  bottom: 0;
+  z-index: 101;
+}
+.footer .price {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  margin: 0px 48px;
+  height: 130px;
+}
+.footer .price .price-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.45rem;
+  font-weight: medium;
+}
+.footer .price .price-buy {
+  text-decoration: none;
+  padding: 24px 32px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.7px);
+  -webkit-backdrop-filter: blur(7.7px);
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.45rem;
+  width: 30%;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 15px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.features {
+  height: 50%;
+}
+
+.wireless {
+  height: 37%;
+}
+
+.make-it {
+  height: 63%;
+}
